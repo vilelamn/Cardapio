@@ -76,8 +76,6 @@ function addToCart(name, price){
    updateCartModal()
 
 }
-
-
 // Atualiza o carrinho
 function updateCartModal(){
     cartItemsContainer.innerHTML = "";
@@ -198,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "quarta": { open: "18:00", close: "22:00" },
         "quinta": { open: "18:00", close: "22:00" },
         "sexta": { open: "18:00", close: "22:00" },
-        "sábado": { open: "18:00", close: "23:45" }
+        "sábado": { open: "18:00", close: "24:00" }
     };
 
     if (openingHours[diaSemana]) {
@@ -249,7 +247,7 @@ function checkRestaurantOpen() {
         "quarta": { open: "18:00", close: "22:00" },
         "quinta": { open: "18:00", close: "22:00" },
         "sexta": { open: "18:00", close: "22:00" },
-        "sábado": { open: "18:00", close: "23:45" }
+        "sábado": { open: "18:00", close: "24:00" }
     };
 
     const horario = openingHours[diaSemana];

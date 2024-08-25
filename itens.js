@@ -39,3 +39,4 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Elementos não encontrados no DOM.");
     }
 });
+
