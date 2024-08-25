@@ -32,18 +32,18 @@ const menuItems = [
     },
     {
         category: "Bebidas",
-        name: "Coca Cola Lata 350ml",
+        name: "Coca-Cola Lata 350ml",
         image: "./assets/refri-1.png",
-        description: "Coca Cola lata",
+        description: "Coca-Cola Original é o refrigerante mais tradicional e consumido no mundo inteiro.",
         price: 4.90
     },
     {
         category: "Bebidas",
-        name: "Guaraná Lata 350ml",
+        name: "Guaraná Antarctica Lata 350ml",
         image: "./assets/refri-2.png",
-        description: "Guaraná lata",
+        description: "Refrigerante com sabor de guaraná feito com frutos da Amazônia.",
         price: 4.90
     }
     // Adicione mais itens conforme necessário
 ];
-
+export default menuItems;
